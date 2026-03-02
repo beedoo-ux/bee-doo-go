@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>bee-doo · Links</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--gold:#F5C500;--bg:#0a0b10;--card:#12141f;--border:#1e2235;--text:#e8ecf4;--dim:#7b87a8}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%;background:radial-gradient(ellipse at 30% 20%,#F5C50006 0%,transparent 50%);pointer-events:none}
+.wrap{width:100%;max-width:440px}
+.logo{text-align:center;margin-bottom:32px}
+.logo-bee{font-size:36px;margin-bottom:6px}
+.logo-text{font-size:13px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:4px}
+.links{display:flex;flex-direction:column;gap:8px}
+a.link{display:flex;align-items:center;gap:14px;padding:16px 20px;background:var(--card);border:1px solid var(--border);border-radius:14px;text-decoration:none;color:var(--text);transition:all .2s}
+a.link:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 4px 20px #F5C50010}
+a.link:active{transform:translateY(0)}
+.link-icon{font-size:22px;width:32px;text-align:center;flex-shrink:0}
+.link-info{flex:1;min-width:0}
+.link-name{font-size:15px;font-weight:700}
+.link-url{font-size:11px;color:var(--dim);font-weight:600;margin-top:2px}
+.link-arrow{color:var(--dim);font-size:18px;transition:color .2s}
+a.link:hover .link-arrow{color:var(--gold)}
+.footer{text-align:center;margin-top:28px;font-size:11px;color:#3d4566}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="logo">
+<div class="logo-bee">🐝</div>
+<div class="logo-text">bee-doo links</div>
+</div>
+<div class="links">
+<a class="link" href="/zoom">
+<span class="link-icon">📞</span>
+<div class="link-info"><div class="link-name">Team-Call Zoom</div><div class="link-url">go.bee-doo.de/zoom</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/ranking">
+<span class="link-icon">🏆</span>
+<div class="link-info"><div class="link-name">Live VT-Ranking</div><div class="link-url">go.bee-doo.de/ranking</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/shop">
+<span class="link-icon">👕</span>
+<div class="link-info"><div class="link-name">Material & Kleidung</div><div class="link-url">go.bee-doo.de/shop</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/academy">
+<span class="link-icon">🎓</span>
+<div class="link-info"><div class="link-name">bee-doo Academy</div><div class="link-url">go.bee-doo.de/academy</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/kredit">
+<span class="link-icon">💰</span>
+<div class="link-info"><div class="link-name">Kreditrechner</div><div class="link-url">go.bee-doo.de/kredit</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/zinsen">
+<span class="link-icon">📈</span>
+<div class="link-info"><div class="link-name">Zinsrechner</div><div class="link-url">go.bee-doo.de/zinsen</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/kredit24">
+<span class="link-icon">💸</span>
+<div class="link-info"><div class="link-name">Kredit24</div><div class="link-url">go.bee-doo.de/kredit24</div></div>
+<span class="link-arrow">→</span>
+</a>
+<a class="link" href="/tools">
+<span class="link-icon">🛠️</span>
+<div class="link-info"><div class="link-name">bee-doo Toolbox</div><div class="link-url">go.bee-doo.de/tools</div></div>
+<span class="link-arrow">→</span>
+</a>
+</div>
+<div class="footer">bee-doo GmbH · Bielefeld</div>
+</div>
+</body>
+</html>
