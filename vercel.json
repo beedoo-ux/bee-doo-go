@@ -1,0 +1,12 @@
+{
+  "redirects": [
+    { "source": "/zoom", "destination": "https://zoom.us/j/2783034210?pwd=X8LuQRXqJ7pu2bxs2uc32qBqTCsq02.1", "permanent": false },
+    { "source": "/shop", "destination": "https://shop.bee-doo.de", "permanent": false },
+    { "source": "/academy", "destination": "https://beedoo.learningsuite.io/auth", "permanent": false },
+    { "source": "/kredit", "destination": "https://www.zinsen-berechnen.de/kreditrechner.php", "permanent": false },
+    { "source": "/zinsen", "destination": "https://www.zinsen-berechnen.de/zinsrechner.php", "permanent": false },
+    { "source": "/kredit24", "destination": "https://go.kredit.de/fp-beeDo", "permanent": false },
+    { "source": "/ranking", "destination": "https://ranking.bee-doo.de/vt-ranking.html", "permanent": false },
+    { "source": "/tools", "destination": "https://bee-doo-tools.vercel.app", "permanent": false }
+  ]
+}
